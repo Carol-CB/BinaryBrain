@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Description" content="Computer science quiz, easy and simple. Ten questions about variety in the theme." />
+    <meta name="Authors" content="Carolina Bertuol" />
+    <meta name="keywords" content="Quiz, Computer Science, Test, Questions, Technology." />
+
+    <title>Binary Brain: The Computer Science bases QUIZ!</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <h1>Binary Brain</h1>
+            <h3>The Computer Science bases QUIZ!</h3>
+        </div>
+        <div>
+            <img src="img/brain_1608271.png" alt="A cartoon brain with a little yellow lamp. It is the logo of the page.">
+        </div>
+    </header>
+
+    <main>
+
+        <div class="flex">
+            <div class="texto-geral">
+                <h2>The Computer Science: an introduction</h2>
+                <p>Computer science is the driving force behind the digital revolution that has transformed every aspect of our lives. It is the field of study that explores the principles, algorithms, and technologies that enable the creation, manipulation, and storage of information in digital form.            
+                </p>
+                <p>At its core, computer science is about problem-solving. It equips us with the tools to tackle complex challenges by breaking them down into manageable steps and designing algorithms to solve them efficiently. Moreover, computer science is deeply intertwined with cybersecurity, ensuring the protection of sensitive information in an increasingly digital world. It's the key to safeguarding our data, privacy, and digital infrastructure.
+                </p>
+
+                <h2>The quiz!</h2>
+                <p>Do you have what it takes to unlock the secrets of the digital realm? Welcome to "Binary Brain: The Computer Science bases QUIZ!", where we'll embark on an tiny journey through the fundamentals of computer science.
+                </p>
+                <p>In this quiz, you'll delve into the core concepts that power the digital age. Whether you're a seasoned programmer or someone just beginning to explore the world of technology, this quiz offers an opportunity to test your knowledge! Let's dive into the world of bits and bytes together!</p>
+            </div>
+        </div>
+
+
+        <div class="flex">
+            <div class="wrapper">
+                <div class="quiz-container">
+                    <div class="quiz-head">
+                        <h2 class="quiz-title">Test your knowledge now!&#x261D;&#xFE0F;&#x1F913;</h2>
+                        <div class="quiz-score flex">
+                            <span id="correct-score"></span>/<span id="total-question"></span>
+                        </div>
+                    </div>
+
+                    <div class="quiz-body">
+                        <h3 class="quiz-question" id="question"></h3>
+                        <ul class="quiz-options"></ul>
+                        <div id="result">
+                            <!--resultado aqui-->
+                        </div>
+                    </div>
+
+                    <div class="quiz-foot">
+                        <button type="button" id="check-answer">Check Answer</button>
+                        <button type="button" id="play-again">Play Again!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <h3>Please, take a look at the trivia api that is provided for this site for free:<a href="https://opentdb.com/api_config.php"> Trivia API &#x261D;&#xFE0F;&#x1F913;</a></h3>
+        <h4>All rigths reserved: Binary Brain™ 2023
+        </h4>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
